@@ -1,38 +1,37 @@
 #include <iostream>
 #include <Windows.h>
 
-void loadnig(short duration = 80, short times = 2) // default
+void loadnig(short duration = 70, short times = 2) // default
 {
 	for (int i = 0; i < times; i++)
-	{
-		
-		Gotoxy(43, 10);
-		cout << "|";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		cout << "/";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		cout << "-";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		cout << "|";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		cout << "/";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		cout << "-";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		cout << "\\";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		cout << "|";
-		Sleep(duration);
-		Gotoxy(43, 10);
-		
-		
+	{    
+	    Gotoxy(43, 10);
+	    cout << "|";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "/";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "-";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "\\";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "|";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "/";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "-";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "\\";
+	    Sleep(duration);
+	    Gotoxy(43, 10);
+	    cout << "|";
+	    Gotoxy(43, 10);
 	}
 }
 
