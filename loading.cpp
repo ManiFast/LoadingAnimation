@@ -32,6 +32,25 @@ void loadnig(short duration = 70, short times = 2) // default
 	    Gotoxy(43, 10);
 	    cout << "|";
 	    Gotoxy(43, 10);
+		
+		// Short with pause like windows
+		/*Gotoxy(43, 10);
+		cout << "|";
+		Sleep(duration);
+		Gotoxy(43, 10);
+		cout << "/";
+		Sleep(duration);
+		Gotoxy(43, 10);
+		cout << "-";
+		Sleep(duration);
+		Gotoxy(43, 10);
+		cout << "\\";
+		Sleep(duration);
+		Gotoxy(43, 10);
+		cout << "|";
+		Sleep(duration);
+		Gotoxy(43, 10);*/
+		
 	}
 }
 
